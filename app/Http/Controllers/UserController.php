@@ -39,8 +39,8 @@ class UserController extends Controller
         $messages = [
             'email.email' => 'Пожалуйста введите корректную электронную почту.',
             'email.regex' => 'Некорректная электронная почта.',
-            'age.integer' => 'Age must be a whole number.',
-            'age.min' => 'Age must be a non-negative number.',
+            'age.integer' => 'Введение коректные данные.',
+            'age.min' => 'Возраст не должен быть отрицательным.',
         ];
 
         // Validate the request data
