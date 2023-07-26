@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('body')
-    <h1 class="mb-0">Add Book</h1>
+    <h1 class="mb-0">Добавить пользователя</h1>
     <hr />
     <form action="{{ route('users.store') }}" method="POST">
         @csrf
