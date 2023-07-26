@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('body')
-    <h1 class="mb-0">Detail User</h1>
+    <h1 class="mb-0">Детали пользователя</h1>
     <hr />
     <div class="row">
         <div class="col mb-3">
