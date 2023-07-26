@@ -5,11 +5,11 @@
     <hr />
     <div class="row">
         <div class="col mb-3">
-            <label class="form-label">Title</label>
+            <label class="form-label">ФИО</label>
             <input type="text" name="name" class="form-control" placeholder="ФИО" value="{{ $users->name }}" readonly>
         </div>
         <div class="col mb-3">
-            <label class="form-label">Price</label>
+            <label class="form-label">Email</label>
             <input type="text" name="email" class="form-control" placeholder="Электронная почта" value="{{ $users->email }}" readonly>
         </div>
     </div>
@@ -21,11 +21,11 @@
     </div>
     <div class="row">
         <div class="col mb-3">
-            <label class="form-label">Created At</label>
+            <label class="form-label">Дата создания</label>
             <input type="text" name="created_at" class="form-control" placeholder="Дата создания" value="{{ $users->created_at }}" readonly>
         </div>
         <div class="col mb-3">
-            <label class="form-label">Updated At</label>
+            <label class="form-label">Дата обновление</label>
             <input type="text" name="updated_at" class="form-control" placeholder="Дата обновление" value="{{ $users->updated_at }}" readonly>
         </div>
     </div>
